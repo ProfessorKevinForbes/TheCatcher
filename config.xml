@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" 
+		xmlns:gap="http://phonegap.com/ns/1.0"
+		xmlns:android   = "http://schemas.android.com/apk/res/android"
+        id          = "edu.iupui.n300.Matheus.TheCatcher"
+        version     = "1.0.0">
+<name>The Catcher</name>        
+<description>
+Keep track of where your device is!
+</description>
+
+<author href="https://github.com/Matheus-Barcelos/Final-Project.git" email="mathbarc@iupui.edu">
+Matheus Barcelos de Oliveira
+</author>
+<icon src="img/icon.png"/>
+<gap:platform name="android" />
+<uses-sdk android:minSdkVersion="19"
+              android:targetSdkVersion="19"
+              android:maxSdkVersion="19" />    
+              
+<gap:plugin name="org.apache.cordova.device" version="0.2.12" />    
+
+<feature name="Geolocation">
+    <param name="android-package" value="org.apache.cordova.GeoBroker" />
+</feature>
+
+<gap:plugin name="org.apache.cordova.geolocation" version="0.3.10" />
+
+</widget>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<link rel="stylesheet" href="www/app.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+   		<script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
+   		<script type="text/javascript" charset="utf-8" src="www/app.js"></script>
+		<title>The Catcher</title>
+	</head>
+	<body>
+		<div id="Hd" class="header">
+			<div class="title"><img src="img/icon.png"/>The Catcher</div>
+		</div>
+		<div id="Page" class="page">
+			<center>
+				<br/><br/>
+				Contact number:
+				<input id="number"/>
+				<br/><br/>
+				Send Period:
+				<select id="sendperiod">
+					<option value="5">5 min</option>
+					<option value="10">10 min</option>
+					<option value="30">30 min</option>
+				</select>
+				<br/><br/>
+				List Size:
+				<select id="sizeoflist">
+					<option value="5">5</option>
+					<option value="10">10</option>
+					<option value="25">25</option>
+					<option value="50">50</option>
+					<option value="100">100</option>
+				</select>
+				<br/><br/>
+				<button onclick="Ready();"/>
+				Save
+				</button>
+			</center>
+		</div>
+		<div class="footer">
+	<div style="position:relative;float:right">
+		<a class="source" href="https://build.phonegap.com/apps/1216633/builds">PhoneGap App</a>
+	</div>
+	<div style="position:relative;float:left">
+		<a class="source" href="https://github.com/Matheus-Barcelos/Final-Project.git">Git Repository</a>
+	</div>
+</div>
+	</body>
+</html>

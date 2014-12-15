@@ -1,0 +1,72 @@
+@CHARSET "ISO-8859-1";
+
+
+.title{
+	position:relative;
+	text-shadow: 2px 2px 2px #000000;
+	text-align:center;
+	color:#FFFFFF;
+	font-family: Papyrus,fantasy;
+	font-size: 30px;
+}
+
+.text{
+	text-align: center;
+	font-family: "Goudy Old Style",Garamond,"Big Caslon","Times New Roman",serif;
+	color:#000000;
+	text-shadow: 1px 1px 2px #555555;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+div.header{
+	position:relative;
+	width:100%;
+	background:#414C57;
+}
+
+div.page{
+	position:relative;
+	top:auto;
+	bottom:auto;
+	width:100%;
+}
+
+div.footer{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	background:#414C57;
+}
+
+button.special{
+	float:right;
+}
+
+img{
+	height:32px;
+	width:32px;
+}
+
+a.button{
+	text-decoration:none;
+	text-align:center;
+	font-family: "Goudy Old Style",Garamond,"Big Caslon","Times New Roman",serif;
+	font-size:24px;
+	color:#FFFFFF;
+	background:#000000;
+	border-radius:5px;
+	border:2px solid #444444;
+}
+
+a.source{
+	text-decoration:none;
+	text-align:center;
+	font-family: "Goudy Old Style",Garamond,"Big Caslon","Times New Roman",serif;
+	font-size:24px;
+	color:#FFFFFF;
+	text-shadow: 1px 1px 2px #000000;
+
+}
